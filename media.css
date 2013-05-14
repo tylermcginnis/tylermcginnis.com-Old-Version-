@@ -1,0 +1,60 @@
+/* ---------- 1400px MEDIA QUERY ----------*/
+@media all and (max-width: 1400px){
+
+}
+
+/* ---------- 1140px MEDIA QUERY ----------*/
+@media all and (max-width: 1140px){
+    .wrapper{
+        width: 1000px;
+    }
+}
+
+/* ---------- 1140px MEDIA QUERY ----------*/
+@media all and (max-width: 1000px){
+}
+
+/* ---------- 1140px MEDIA QUERY ----------*/
+@media all and (max-width: 900px){
+
+    #inner_menu {
+        width: 804px;
+    }
+
+    #menu ul li {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
+
+/* ---------- 768px MEDIA QUERY ----------*/
+
+@media all and (max-width: 768px){
+
+    #menuContainer{
+        height: 130px; 
+    }
+
+    #menu{
+        background: transparent;
+    }
+
+    #inner_menu{
+        width:100%;
+    }
+
+    #inner_menu ul{
+        margin-top: 0px;
+        background: #333;
+        width: 100%;
+    }
+
+    #inner_menu ul li{
+        display: block;
+    }
+}
+
+/* ---------- 480px MEDIA QUERY ----------*/
+@media all and (max-width: 480px){
+
+}
